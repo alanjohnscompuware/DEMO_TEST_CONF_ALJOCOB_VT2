@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Tests/Scenarios/ALJOCOB_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="ALJOCOB" encoding="1047" entrypoint="ALJOCOB#" id="Tests/Scenarios/ALJOCOB_Scenario.testscenario%23ALJOCOBCase1" target="ALJOCOB">
+      <testcase:description>using original data recorded during generate using ALJOCOB_EMPFILE_FILE_01.stub, with record 12 WA-EMP-HOURS value =  37</testcase:description>
+      <testcase:ddio>HUK0320.DEMO.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1578816087000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/ALJOCOB.interface#Tests/Interfaces/ALJOCOB.interface</testcase:interface>
+      <testcase:input listructure="../Structures/ALJOCOB_PARMINFO.listructure#Tests/Structures/ALJOCOB_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/ALJOCOB_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">0005F0F0F0F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F3</properties:property>
+            <properties:property name="address" type="string">37A3A568</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/ALJOCOB_CWXTDATE_01.stub#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJOCOB_ALJOSUBC_02.stub#Tests/Stubs/ALJOCOB_ALJOSUBC_02.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJOCOB_EMPFILE_FILE_01.stub#Tests/Stubs/ALJOCOB_EMPFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJOCOB_RPTFILE_FILE_01.stub#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJOCOB_DATETIME_01.stub#Tests/Stubs/ALJOCOB_DATETIME_01.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/ALJOCOB_RETURN-CODE.listructure#Tests/Structures/ALJOCOB_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/ALJOCOB_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>ALJOCOB</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="ALJOCOB" encoding="1047" entrypoint="ALJOCOB#" id="Tests/Scenarios/ALJOCOB_Scenario.testscenario%23ALJOCOBCase2" target="ALJOCOB">
+      <testcase:description>using ALJOCOB_EMPFILE_FILE_02.stub, with record 12 WA-EMP-HOURS value changed to 50 from 37</testcase:description>
+      <testcase:ddio>HUK0320.DEMO.LOAD.PDSE</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1578816087000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/ALJOCOB.interface#Tests/Interfaces/ALJOCOB.interface</testcase:interface>
+      <testcase:input listructure="../Structures/ALJOCOB_PARMINFO.listructure#Tests/Structures/ALJOCOB_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/ALJOCOB_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">0005F0F0F0F0F3</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F3</properties:property>
+            <properties:property name="address" type="string">37A3A568</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/ALJOCOB_CWXTDATE_01.stub#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJOCOB_ALJOSUBC_02.stub#Tests/Stubs/ALJOCOB_ALJOSUBC_02.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJOCOB_RPTFILE_FILE_01.stub#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJOCOB_DATETIME_01.stub#Tests/Stubs/ALJOCOB_DATETIME_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/ALJOCOB_EMPFILE_FILE_2.stub#Tests/Stubs/ALJOCOB_EMPFILE_FILE_2.stub</testcase:stub>
+      </testcase:stubs>
+      <testcase:returncode listructure="../Structures/ALJOCOB_RETURN-CODE.listructure#Tests/Structures/ALJOCOB_RETURN-CODE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/ALJOCOB_RETURN-CODE.listructure#RETURN_CODE" id="arg0.RETURN_CODE">
+          <properties:properties>
+            <properties:property name="expectedValue" type="string">0000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:returncode>
+      <testcase:ddioMemberName>ALJOCOB</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

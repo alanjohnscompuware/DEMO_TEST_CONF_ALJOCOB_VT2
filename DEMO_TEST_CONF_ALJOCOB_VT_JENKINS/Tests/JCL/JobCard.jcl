@@ -1,0 +1,4 @@
+//HUK0320R JOB ('CW-UK'),NOTIFY=&SYSUID,CLASS=A,
+//        MSGCLASS=R,REGION=0M
+//*
+//*

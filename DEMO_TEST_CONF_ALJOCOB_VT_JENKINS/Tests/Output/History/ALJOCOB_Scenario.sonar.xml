@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.8.1.v20210914-0447_93?>
+<!--Topaz for Total Test 20.8.1.v20210914-0447_93 08-Oct-2021 14:46:14-->
+<testExecutions version="1">
+  <file path="C:\Users\cpwr01\Compuware\Workbench\workspace\NATWEST_TEST_CONF_ALJOCOB_VT2\Tests\Scenarios\ALJOCOB_Scenario.testscenario">
+    <testCase name="Unit Test: Test Case: ALJOCOBCase1 for program: ALJOCOB" duration="0" />
+    <testCase name="Unit Test: Test Case: ALJOCOBCase2 for program: ALJOCOB" duration="0">
+      <failure message="Unit Test: Test Case: ALJOCOBCase2 for program: ALJOCOB">Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00018 Message: Check for EMP_DTL_WAGES failed. Actual: 1100.00 Expected: 1017.50
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00018 Message: Check for EMP_DTL_OT failed. Actual: 412.50 Expected: 0.00
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00018 Message: Check for EMP_DTL_TOTAL failed. Actual: 1512.50 Expected: 1017.50
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00023 Message: Check for EMP_GRAND_TOTAL failed. Actual: 43561.00 Expected: 43066.00</failure>
+    </testCase>
+  </file>
+</testExecutions>

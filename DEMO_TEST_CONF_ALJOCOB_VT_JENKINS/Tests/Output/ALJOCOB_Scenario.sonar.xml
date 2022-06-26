@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.10.3.v20220524-1628_164?>
+<!--Topaz for Total Test 20.10.3.v20220524-1628_164 26-Jun-2022 11:28:25-->
+<testExecutions version="1">
+  <file path="C:\Users\cpwr01\Compuware\Workbench\workspace\DEMO_TEST_CONF_ALJOCOB_VT_JENKINS\Tests\Scenarios\ALJOCOB_Scenario.testscenario">
+    <testCase name="Unit Test: Test Case: ALJOCOBCase1 for program: ALJOCOB" duration="0">
+      <failure message="Unit Test: Test Case: ALJOCOBCase1 for program: ALJOCOB">Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00010 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00011 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00012 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00013 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00014 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00015 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00016 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00017 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00018 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00019 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00020 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00021 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'</failure>
+    </testCase>
+    <testCase name="Unit Test: Test Case: ALJOCOBCase2 for program: ALJOCOB" duration="0">
+      <failure message="Unit Test: Test Case: ALJOCOBCase2 for program: ALJOCOB">Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00010 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00011 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00012 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00013 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00014 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00015 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00016 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00017 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00018 Message: Check for EMP_DTL_WAGES failed. Actual: 1100.00 Expected: 1017.50
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00018 Message: Check for EMP_DTL_OT failed. Actual: 412.50 Expected: 0.00
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00018 Message: Check for EMP_DTL_TOTAL failed. Actual: 1512.50 Expected: 1017.50
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00018 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00019 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00020 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00021 Message: Check for EXTRA_FIELD failed. Actual: X'00' Expected: X'E8'
+Failure    Stub: ALJOCOB_RPTFILE_FILE_01 Record: 00023 Message: Check for EMP_GRAND_TOTAL failed. Actual: 43561.00 Expected: 43066.00</failure>
+    </testCase>
+  </file>
+</testExecutions>

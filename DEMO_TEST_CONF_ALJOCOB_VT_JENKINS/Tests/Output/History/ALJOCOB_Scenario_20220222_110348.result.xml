@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result:DocumentRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:result="http://www.compuware.com/model/xml/result">
+<?totaltestVersion 20.9.2.v20220119-0531_125?><!--Topaz for Total Test 20.9.2.v20220119-0531_125 22-Feb-2022 11:03:47-->  <result>
+    <testsuiteResult errorCount="0" failureCount="28" testCount="862">
+      <testscenarioResults errorCount="0" failureCount="28" testCount="862">
+        <testcaseResults errorCount="0" failureCount="12" testCount="431">
+          <results actualValue="0" expectedValue="0" name="Check for RETURN_CODE" result="Success"/>
+          <results actualValue="5" expectedValue="5" name="Check for PARM_LTH" result="Success"/>
+          <results actualValue="00003" expectedValue="00003" name="Check for PARM_DATA" result="Success"/>
+          <stubAssertion errorCount="0" failureCount="0" testCount="84">
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.0"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="81" expectedValue="81" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="10" expectedValue="10" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="15" expectedValue="15" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.1"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="92" expectedValue="92" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="12" expectedValue="12" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="31" expectedValue="31" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.2"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="28" expectedValue="28" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="94" expectedValue="94" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="5" expectedValue="5" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="1" expectedValue="1" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.3"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="27" expectedValue="27" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="89" expectedValue="89" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="7" expectedValue="7" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="20" expectedValue="20" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.4"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="32" expectedValue="32" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="83" expectedValue="83" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="6" expectedValue="6" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="14" expectedValue="14" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.5"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="38" expectedValue="38" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="87" expectedValue="87" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="3" expectedValue="3" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="31" expectedValue="31" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.6"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="34" expectedValue="34" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="81" expectedValue="81" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="11" expectedValue="11" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="11" expectedValue="11" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.7"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="82" expectedValue="82" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="8" expectedValue="8" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="30" expectedValue="30" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.8"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="93" expectedValue="93" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="4" expectedValue="4" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="5" expectedValue="5" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.9"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="28" expectedValue="28" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="91" expectedValue="91" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="9" expectedValue="9" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="13" expectedValue="13" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.10"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="30" expectedValue="30" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="88" expectedValue="88" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="2" expectedValue="2" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="29" expectedValue="29" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.11"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="33" expectedValue="33" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="86" expectedValue="86" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="1" expectedValue="1" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="2" expectedValue="2" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.12"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="35" expectedValue="35" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="82" expectedValue="82" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="9" expectedValue="9" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="30" expectedValue="30" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.13"/>
+            </stubdataassertions>
+            <stub href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="0" testCount="21">
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="55000.00" expectedValue="55000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.0"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="25000.00" expectedValue="25000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.1"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="75000.00" expectedValue="75000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.2"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="55550.00" expectedValue="55550.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.3"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="75000.00" expectedValue="75000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.4"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="28000.00" expectedValue="28000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.5"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="75000.00" expectedValue="75000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.6"/>
+            </stubdataassertions>
+            <stub href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="12" testCount="322">
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.0"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.1"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.2"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="12">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="RUN DATE" expectedValue="RUN DATE" name="Check for FILLER1" result="Success"/>
+              <results actualValue="10" expectedValue="10" name="Check for EMP_RUN_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for FILLER2" result="Success"/>
+              <results actualValue="7" expectedValue="7" name="Check for EMP_RUN_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for FILLER3" result="Success"/>
+              <results actualValue="21" expectedValue="21" name="Check for EMP_RUN_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="EMPLOYEE COMPENSATION REPORT" expectedValue="EMPLOYEE COMPENSATION REPORT" name="Check for FILLER5" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="PAGE" expectedValue="PAGE" name="Check for FILLER7" result="Success"/>
+              <results actualValue="1" expectedValue="1" name="Check for EMP_PAGE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.3"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.4"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.5"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="5">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="HIRE" expectedValue="HIRE" name="Check for FILLER1" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="YRS OF" expectedValue="YRS OF" name="Check for FILLER3" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.6"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="18">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="EMPLOYEE NAME" expectedValue="EMPLOYEE NAME" name="Check for FILLER1" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="REGION" expectedValue="REGION" name="Check for FILLER3" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="TYPE" expectedValue="TYPE" name="Check for FILLER5" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="DATE" expectedValue="DATE" name="Check for FILLER7" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="SERVICE" expectedValue="SERVICE" name="Check for FILLER9" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER10" result="Success"/>
+              <results actualValue="SALARY" expectedValue="SALARY" name="Check for FILLER11" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER12" result="Success"/>
+              <results actualValue="O/T" expectedValue="O/T" name="Check for FILLER13" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER14" result="Success"/>
+              <results actualValue="COMMISSION" expectedValue="COMMISSION" name="Check for FILLER15" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER16" result="Success"/>
+              <results actualValue="TOTAL" expectedValue="TOTAL" name="Check for FILLER17" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.7"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.8"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="JOHN SMITH" expectedValue="JOHN SMITH" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="NORTH" expectedValue="NORTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="10" expectedValue="10" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="15" expectedValue="15" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="81" expectedValue="81" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1083.00" expectedValue="1083.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="1083.00" expectedValue="1083.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.9"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="ROY HARDNER" expectedValue="ROY HARDNER" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="NORTH" expectedValue="NORTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="12" expectedValue="12" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="31" expectedValue="31" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="92" expectedValue="92" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="28" expectedValue="28" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="750.00" expectedValue="750.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="3300.00" expectedValue="3300.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="4050.00" expectedValue="4050.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.10"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="DAN PEARSON" expectedValue="DAN PEARSON" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="NORTH" expectedValue="NORTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="7" expectedValue="7" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="20" expectedValue="20" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="89" expectedValue="89" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="32" expectedValue="32" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="850.00" expectedValue="850.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="1000.00" expectedValue="1000.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="1850.00" expectedValue="1850.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.11"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="ICHAEL DAYTON" expectedValue="ICHAEL DAYTON" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="SOUTH" expectedValue="SOUTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="8" expectedValue="8" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="30" expectedValue="30" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="82" expectedValue="82" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="825.00" expectedValue="825.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="6000.00" expectedValue="6000.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="6825.00" expectedValue="6825.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.12"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="DENNIS WHITE" expectedValue="DENNIS WHITE" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="SOUTH" expectedValue="SOUTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="2" expectedValue="2" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="29" expectedValue="29" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="88" expectedValue="88" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="33" expectedValue="33" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1050.00" expectedValue="1050.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="1120.00" expectedValue="1120.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="2170.00" expectedValue="2170.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.13"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="BBIE OLSEN" expectedValue="BBIE OLSEN" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="EAST" expectedValue="EAST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="5" expectedValue="5" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="1" expectedValue="1" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="94" expectedValue="94" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="27" expectedValue="27" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="900.00" expectedValue="900.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="3300.00" expectedValue="3300.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="4200.00" expectedValue="4200.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.14"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="LAURA MARTIN" expectedValue="LAURA MARTIN" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="EAST" expectedValue="EAST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="6" expectedValue="6" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="14" expectedValue="14" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="83" expectedValue="83" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="38" expectedValue="38" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1225.00" expectedValue="1225.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="6000.00" expectedValue="6000.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="7225.00" expectedValue="7225.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.15"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="MARCIA SULLIVAN" expectedValue="MARCIA SULLIVAN" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="EAST" expectedValue="EAST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="4" expectedValue="4" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="5" expectedValue="5" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="93" expectedValue="93" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="28" expectedValue="28" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1200.00" expectedValue="1200.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="180.00" expectedValue="180.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="1380.00" expectedValue="1380.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.16"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="JAMES MORRISON" expectedValue="JAMES MORRISON" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="EAST" expectedValue="EAST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="9" expectedValue="9" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="13" expectedValue="13" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="91" expectedValue="91" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="30" expectedValue="30" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1017.50" expectedValue="1017.50" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="1017.50" expectedValue="1017.50" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.17"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="THOMAS LONG" expectedValue="THOMAS LONG" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="WEST" expectedValue="WEST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="3" expectedValue="3" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="31" expectedValue="31" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="87" expectedValue="87" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="34" expectedValue="34" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1000.00" expectedValue="1000.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="1000.00" expectedValue="1000.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.18"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="DONNA BROWN" expectedValue="DONNA BROWN" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="WEST" expectedValue="WEST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="11" expectedValue="11" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="11" expectedValue="11" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="81" expectedValue="81" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1000.00" expectedValue="1000.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="3333.00" expectedValue="3333.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="4333.00" expectedValue="4333.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.19"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="MARK JOHNSON" expectedValue="MARK JOHNSON" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="WEST" expectedValue="WEST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="9" expectedValue="9" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="30" expectedValue="30" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="82" expectedValue="82" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="750.00" expectedValue="750.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="6000.00" expectedValue="6000.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="6750.00" expectedValue="6750.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.20"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.21"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="4">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="TOTAL" expectedValue="TOTAL" name="Check for FILLER1" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="43066.00" expectedValue="43066.00" name="Check for EMP_GRAND_TOTAL" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.22"/>
+            </stubdataassertions>
+            <stub href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="0" testCount="1">
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_DATETIME_01.stub.Tests/Stubs/ALJOCOB_DATETIME_01.stub.0"/>
+            </stubdataassertions>
+            <stub href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_DATETIME_01.stub"/>
+          </stubAssertion>
+          <testcase href="ALJOCOB_Scenario.archive#Tests/Scenarios/ALJOCOB_Scenario.testscenario%23ALJOCOBCase1"/>
+        </testcaseResults>
+        <testcaseResults errorCount="0" failureCount="16" testCount="431">
+          <results actualValue="0" expectedValue="0" name="Check for RETURN_CODE" result="Success"/>
+          <results actualValue="5" expectedValue="5" name="Check for PARM_LTH" result="Success"/>
+          <results actualValue="00003" expectedValue="00003" name="Check for PARM_DATA" result="Success"/>
+          <stubAssertion errorCount="0" failureCount="0" testCount="84">
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.0"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="81" expectedValue="81" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="10" expectedValue="10" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="15" expectedValue="15" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.1"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="92" expectedValue="92" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="12" expectedValue="12" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="31" expectedValue="31" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.2"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="28" expectedValue="28" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="94" expectedValue="94" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="5" expectedValue="5" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="1" expectedValue="1" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.3"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="27" expectedValue="27" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="89" expectedValue="89" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="7" expectedValue="7" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="20" expectedValue="20" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.4"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="32" expectedValue="32" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="83" expectedValue="83" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="6" expectedValue="6" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="14" expectedValue="14" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.5"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="38" expectedValue="38" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="87" expectedValue="87" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="3" expectedValue="3" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="31" expectedValue="31" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.6"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="34" expectedValue="34" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="81" expectedValue="81" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="11" expectedValue="11" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="11" expectedValue="11" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.7"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="82" expectedValue="82" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="8" expectedValue="8" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="30" expectedValue="30" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.8"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="93" expectedValue="93" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="4" expectedValue="4" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="5" expectedValue="5" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.9"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="28" expectedValue="28" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="91" expectedValue="91" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="9" expectedValue="9" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="13" expectedValue="13" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.10"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="30" expectedValue="30" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="88" expectedValue="88" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="2" expectedValue="2" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="29" expectedValue="29" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.11"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="33" expectedValue="33" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="86" expectedValue="86" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="1" expectedValue="1" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="2" expectedValue="2" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.12"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="35" expectedValue="35" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="211007" expectedValue="211007" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="82" expectedValue="82" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="9" expectedValue="9" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="30" expectedValue="30" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.Tests/Stubs/ALJOCOB_CWXTDATE_01.stub.13"/>
+            </stubdataassertions>
+            <stub href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_CWXTDATE_01.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="0" testCount="21">
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="55000.00" expectedValue="55000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.0"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="25000.00" expectedValue="25000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.1"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="75000.00" expectedValue="75000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.2"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="55550.00" expectedValue="55550.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.3"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="75000.00" expectedValue="75000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.4"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="28000.00" expectedValue="28000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.5"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="75000.00" expectedValue="75000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub.6"/>
+            </stubdataassertions>
+            <stub href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_ALJOSUBC_01.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="16" testCount="322">
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.0"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.1"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.2"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="12">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="RUN DATE" expectedValue="RUN DATE" name="Check for FILLER1" result="Success"/>
+              <results actualValue="10" expectedValue="10" name="Check for EMP_RUN_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for FILLER2" result="Success"/>
+              <results actualValue="7" expectedValue="7" name="Check for EMP_RUN_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for FILLER3" result="Success"/>
+              <results actualValue="21" expectedValue="21" name="Check for EMP_RUN_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="EMPLOYEE COMPENSATION REPORT" expectedValue="EMPLOYEE COMPENSATION REPORT" name="Check for FILLER5" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="PAGE" expectedValue="PAGE" name="Check for FILLER7" result="Success"/>
+              <results actualValue="1" expectedValue="1" name="Check for EMP_PAGE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.3"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.4"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.5"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="5">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="HIRE" expectedValue="HIRE" name="Check for FILLER1" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="YRS OF" expectedValue="YRS OF" name="Check for FILLER3" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.6"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="18">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="EMPLOYEE NAME" expectedValue="EMPLOYEE NAME" name="Check for FILLER1" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="REGION" expectedValue="REGION" name="Check for FILLER3" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="TYPE" expectedValue="TYPE" name="Check for FILLER5" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="DATE" expectedValue="DATE" name="Check for FILLER7" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="SERVICE" expectedValue="SERVICE" name="Check for FILLER9" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER10" result="Success"/>
+              <results actualValue="SALARY" expectedValue="SALARY" name="Check for FILLER11" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER12" result="Success"/>
+              <results actualValue="O/T" expectedValue="O/T" name="Check for FILLER13" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER14" result="Success"/>
+              <results actualValue="COMMISSION" expectedValue="COMMISSION" name="Check for FILLER15" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER16" result="Success"/>
+              <results actualValue="TOTAL" expectedValue="TOTAL" name="Check for FILLER17" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.7"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.8"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="JOHN SMITH" expectedValue="JOHN SMITH" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="NORTH" expectedValue="NORTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="10" expectedValue="10" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="15" expectedValue="15" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="81" expectedValue="81" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1083.00" expectedValue="1083.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="1083.00" expectedValue="1083.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.9"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="ROY HARDNER" expectedValue="ROY HARDNER" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="NORTH" expectedValue="NORTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="12" expectedValue="12" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="31" expectedValue="31" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="92" expectedValue="92" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="28" expectedValue="28" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="750.00" expectedValue="750.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="3300.00" expectedValue="3300.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="4050.00" expectedValue="4050.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.10"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="DAN PEARSON" expectedValue="DAN PEARSON" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="NORTH" expectedValue="NORTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="7" expectedValue="7" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="20" expectedValue="20" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="89" expectedValue="89" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="32" expectedValue="32" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="850.00" expectedValue="850.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="1000.00" expectedValue="1000.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="1850.00" expectedValue="1850.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.11"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="ICHAEL DAYTON" expectedValue="ICHAEL DAYTON" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="SOUTH" expectedValue="SOUTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="8" expectedValue="8" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="30" expectedValue="30" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="82" expectedValue="82" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="825.00" expectedValue="825.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="6000.00" expectedValue="6000.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="6825.00" expectedValue="6825.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.12"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="DENNIS WHITE" expectedValue="DENNIS WHITE" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="SOUTH" expectedValue="SOUTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="2" expectedValue="2" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="29" expectedValue="29" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="88" expectedValue="88" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="33" expectedValue="33" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1050.00" expectedValue="1050.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="1120.00" expectedValue="1120.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="2170.00" expectedValue="2170.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.13"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="BBIE OLSEN" expectedValue="BBIE OLSEN" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="EAST" expectedValue="EAST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="5" expectedValue="5" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="1" expectedValue="1" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="94" expectedValue="94" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="27" expectedValue="27" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="900.00" expectedValue="900.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="3300.00" expectedValue="3300.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="4200.00" expectedValue="4200.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.14"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="LAURA MARTIN" expectedValue="LAURA MARTIN" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="EAST" expectedValue="EAST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="6" expectedValue="6" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="14" expectedValue="14" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="83" expectedValue="83" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="38" expectedValue="38" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1225.00" expectedValue="1225.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="6000.00" expectedValue="6000.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="7225.00" expectedValue="7225.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.15"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="MARCIA SULLIVAN" expectedValue="MARCIA SULLIVAN" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="EAST" expectedValue="EAST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="4" expectedValue="4" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="5" expectedValue="5" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="93" expectedValue="93" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="28" expectedValue="28" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1200.00" expectedValue="1200.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="180.00" expectedValue="180.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="1380.00" expectedValue="1380.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.16"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="4" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="JAMES MORRISON" expectedValue="JAMES MORRISON" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="EAST" expectedValue="EAST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="9" expectedValue="9" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="13" expectedValue="13" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="91" expectedValue="91" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="30" expectedValue="30" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualHex="40F1F1F0F04BF0F0" actualValue="1100.00" dataID="output9.arg0.EMPLOYEE_DTL.EMP_DTL_WAGES" expectedAssert="" expectedValue="1017.50" message="Check for EMP_DTL_WAGES failed" name="Check for EMP_DTL_WAGES" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualHex="4040F4F1F24BF5F0" actualValue="412.50" dataID="output9.arg0.EMPLOYEE_DTL.EMP_DTL_OT" expectedAssert="" expectedValue="0.00" message="Check for EMP_DTL_OT failed" name="Check for EMP_DTL_OT" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualHex="40F1F5F1F24BF5F0" actualValue="1512.50" dataID="output9.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="1017.50" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.17"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="THOMAS LONG" expectedValue="THOMAS LONG" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="WEST" expectedValue="WEST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="3" expectedValue="3" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="31" expectedValue="31" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="87" expectedValue="87" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="34" expectedValue="34" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1000.00" expectedValue="1000.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="1000.00" expectedValue="1000.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.18"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="DONNA BROWN" expectedValue="DONNA BROWN" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="WEST" expectedValue="WEST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="11" expectedValue="11" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="11" expectedValue="11" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="81" expectedValue="81" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1000.00" expectedValue="1000.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="3333.00" expectedValue="3333.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="4333.00" expectedValue="4333.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.19"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="23">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="MARK JOHNSON" expectedValue="MARK JOHNSON" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="WEST" expectedValue="WEST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="9" expectedValue="9" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="30" expectedValue="30" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="82" expectedValue="82" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="750.00" expectedValue="750.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="6000.00" expectedValue="6000.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="6750.00" expectedValue="6750.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="00" actualValue="X'00'" dataID="output9.arg0.EMPLOYEE_DTL.EXTRA_FIELD" expectedAssert="" expectedValue="X'E8'" message="Check for EXTRA_FIELD failed" name="Check for EXTRA_FIELD" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.20"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.21"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="4">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="TOTAL" expectedValue="TOTAL" name="Check for FILLER1" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualHex="4040F4F3F5F6F14BF0F0" actualValue="43561.00" dataID="output22.arg0.EMP_TOTAL_DTL.EMP_GRAND_TOTAL" expectedAssert="" expectedValue="43066.00" message="Check for EMP_GRAND_TOTAL failed" name="Check for EMP_GRAND_TOTAL" result="Failure"/>
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub.22"/>
+            </stubdataassertions>
+            <stub href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_RPTFILE_FILE_01.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="0" testCount="1">
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_DATETIME_01.stub.Tests/Stubs/ALJOCOB_DATETIME_01.stub.0"/>
+            </stubdataassertions>
+            <stub href="ALJOCOB_Scenario.archive#Tests/Stubs/ALJOCOB_DATETIME_01.stub"/>
+          </stubAssertion>
+          <testcase href="ALJOCOB_Scenario.archive#Tests/Scenarios/ALJOCOB_Scenario.testscenario%23ALJOCOBCase2"/>
+        </testcaseResults>
+        <testscenario href="ALJOCOB_Scenario.archive#Tests/Scenarios/ALJOCOB_Scenario.testscenario"/>
+      </testscenarioResults>
+      <testsuite href="ALJOCOB_Scenario.archive#%5C.temp%5CALJOCOB_Scenario.testsuite"/>
+    </testsuiteResult>
+  </result>
+</result:DocumentRoot>
